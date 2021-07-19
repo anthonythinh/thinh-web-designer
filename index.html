@@ -617,25 +617,27 @@ Search</button></p>
 				</div>
 			</div>
 		</div>
-		<form class="form-horizontal" ><action action="/action_page.php">
+		<form class="form-inline"><action action="/action_page.php">
 			<div class="form-group">
 				<label for="name">Name:</label>
-				<input type="text" name="Name" id="Username" placeholder="input your full name here">
+				<input type="text" id="name" name="name" placeholder="text your name here">
 			</div>
 			<div class="form-group">
 				<label for="email">Email:</label>
-				<input type="email" name="email" id="email" placeholder="input your email here">
+				<input type="email" name="email" id="email" placeholder="text your email here">
 			</div>
 			<div class="form-group">
 				<label for="pwd">Password:</label>
-				<input type="password" name="Password" id="Password" placeholder="input your Password here" maxlength="6">
+				<input type="password" name="Password" id="Password" placeholder="text your password here" maxlength="10">
 			</div>
 			<div class="checkbox">
-				<label><input type="checkbox" name="remeber" id="me">Remember me ,thank you.</label>
+				<label for="remember">Remember me</label>
+				<input type="checkbox" name="checkbox" id="checkbox">
 			</div>
-		<button type="submit" id="submit" class="btn btn-primary">Submit here</button>
-	</action>
-</form>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</action>
+	</form>
+
 
 
 
