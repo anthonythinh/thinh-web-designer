@@ -679,16 +679,56 @@ Search</button></p>
 		<label for="pwd" class="form-control">Password:</label>
 		<input type="password" name="Password" id="pwd" placeholder="type your password here" maxlength="12" class="col-md-12">
 	</div>
+	<div class="form-group">
 	<div class="checkbox">
 		<label class="form-control"><input type="checkbox" id="check">Check me</label>
 	</div>
+</div>
 	<div class="form-group">
 		<button type="submit" class="btn btn-sucess">Submit</button>
 	</div>
+	<div class="form-group">
+		<label for="comment" >Comment:</label>
+		<textarea id="text" cols="5" rows="5" class="form-control"></textarea>
+	</div>
+	<div class="checkbox -inline">
+		<label><input type="checkbox" name="checkbox" id="check" >Option 1</label>
+		<label><input type="checkbox" name="checkbox" id="check" >Option 2</label>
+	</div>
+	<div class="checkbox disabled">
+		<label><input type="checkbox" name="checkbox" id="check" >Option 3</label><br>
+	</div>
+	<div class="radio">
+		<label><input type="radio" name="Option1" id="option1">Option 1</label>
+		<label><input type="radio" name="Option2" id="option2">Option 2</label>
+		<label><input type="radio" name="Option3" id="option3">Option 3</label>
+	</div>
+	<div class="form-group">
+		<label for="slt1">Select the lists:</label>
+		<select id="slt1" name="Select">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	</select>
+	</div>
 </action>
-
-
-
+<div class="container-fluid">
+	<h2>Horizontal form static control</h2>
+	<action action="/action_page.php">
+	<div class="form-group">
+		<label for="email" class="label-controls col-md-2">Email:</label>
+		<p class="form-control static col-md-10">Someone@example.com.vn</p>
+	</div>
+	<div class="form-group">
+		<label for="password" class="label-controls col-md-2">Password:</label>
+		<input type="password" name="Password" id="pwd" class="form-control col-md-10" placeholder="type your password here" maxlength="12">
+	</div>
+	<br>
+	<button type="submit" id="submit" class="btn btn-primary col-md-2">Submit</button> 
+</action>
+</div>
+			
 
 
 
